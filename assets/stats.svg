@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="150" viewBox="0 0 1280 150">
+<rect width="1280" height="150" rx="20" fill="#1a0a1f"/>
+<g font-family="Helvetica,Arial,sans-serif" text-anchor="middle">
+<g transform="translate(160,0)"><text y="78" font-family="Georgia,serif" font-size="46" fill="#f2c94c">2,700+</text><text y="112" font-size="16" fill="#ffffff" fill-opacity="0.8">commits in 12 months</text></g>
+<g transform="translate(480,0)"><text y="78" font-family="Georgia,serif" font-size="46" fill="#f2c94c">8</text><text y="112" font-size="16" fill="#ffffff" fill-opacity="0.8">production modules shown</text></g>
+<g transform="translate(800,0)"><text y="78" font-family="Georgia,serif" font-size="46" fill="#f2c94c">8,000+</text><text y="112" font-size="16" fill="#ffffff" fill-opacity="0.8">patients on what I built</text></g>
+<g transform="translate(1120,0)"><text y="78" font-family="Georgia,serif" font-size="46" fill="#f2c94c">1</text><text y="112" font-size="16" fill="#ffffff" fill-opacity="0.8">extension on the Chrome Web Store</text></g>
+</g>
+<g stroke="#ffffff" stroke-opacity="0.12"><line x1="320" y1="35" x2="320" y2="115"/><line x1="640" y1="35" x2="640" y2="115"/><line x1="960" y1="35" x2="960" y2="115"/></g>
+</svg>
