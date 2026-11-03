@@ -1,10 +1,10 @@
-<p align="center"><img src="assets/banner.svg" alt="Alejandro Álvarez — Product Engineer" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Alejandro Álvarez — CTO at Mente Sana" width="100%"></p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,nextjs,react,nodejs,supabase,postgres,mysql,redis,vercel,threejs,tailwind,python&perline=12" alt="Stack">
 </p>
 
-**Product Engineer, end to end.** I take a business problem, find the metric that matters, ship the product that moves it and measure whether it did — from the ad click to the database row to the PDF a clinician signs.
+**CTO who still ships.** I take a business problem, find the metric that matters, ship the product that moves it and measure whether it did — from the ad click to the database row to the PDF a clinician signs.
 
 CTO at **[Mente Sana](https://mentesanapsicologia.com)**, an online psychology clinic in Spain: **8,000+ patients, 150+ licensed psychologists**. I build and run its whole product surface — acquisition funnel, payments, booking, CRM, clinical tooling, lifecycle messaging and the AI features around them.
 
@@ -47,6 +47,34 @@ Each repo below is a module extracted from the private production monorepo **wit
 | [**mentesana-meet-extension**](https://github.com/AlejandroAlvarez-srdev/mentesana-meet-extension) | Manifest V3 Chrome extension ([Web Store](https://chromewebstore.google.com/detail/idiokgdfhladphbdfpkiedfboghkicfh)) that turns Google Meet captions into draft clinical notes, with in-browser de-identification and an offline queue. | — |
 
 **Some results from this work:** a tracking gap where the browser pixel recorded 0 purchases was closed by moving purchases server-side with deterministic dedup · an A/B test of the landing CTA picked the winner on paid conversions (8 vs 3) · 85% of buyers attend their session and 57% buy a therapy bundle within 30 days · 97% of paid traffic is mobile, so every flow is designed phone-first.
+
+## Engineering deep-dives — Pulso
+
+**Pulso** is a fictional on-demand microtask marketplace I use to go deep on the patterns I care about beyond one company's stack: a NestJS + FastAPI service mesh, multi-agent AI, distributed transactions, Kubernetes and rigorous experimentation. Each repo is tested, documented with its trade-offs and wired to CI.
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/AlejandroAlvarez-srdev/pulso-orders-api"><img src="assets/cards/pulso-orders-api.svg" alt="pulso-orders-api" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/AlejandroAlvarez-srdev/pulso-matching"><img src="assets/cards/pulso-matching.svg" alt="pulso-matching" width="100%"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/AlejandroAlvarez-srdev/pulso-support-agents"><img src="assets/cards/pulso-support-agents.svg" alt="pulso-support-agents" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/AlejandroAlvarez-srdev/pulso-saga"><img src="assets/cards/pulso-saga.svg" alt="pulso-saga" width="100%"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/AlejandroAlvarez-srdev/pulso-platform"><img src="assets/cards/pulso-platform.svg" alt="pulso-platform" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/AlejandroAlvarez-srdev/pulso-experiments"><img src="assets/cards/pulso-experiments.svg" alt="pulso-experiments" width="100%"></a></td>
+  </tr>
+</table>
+
+| Skill | Where to look |
+|---|---|
+| APIs & microservices (Node/NestJS, Python/FastAPI) | [pulso-orders-api](https://github.com/AlejandroAlvarez-srdev/pulso-orders-api) · [pulso-matching](https://github.com/AlejandroAlvarez-srdev/pulso-matching) |
+| Algorithms & performance | [pulso-matching](https://github.com/AlejandroAlvarez-srdev/pulso-matching) — Hungarian from scratch, NumPy, spatial index, load test |
+| Multi-agent AI (LangGraph) | [pulso-support-agents](https://github.com/AlejandroAlvarez-srdev/pulso-support-agents) — routing, tools, HITL, memory, guardrails, evals |
+| Distributed systems & resilience | [pulso-saga](https://github.com/AlejandroAlvarez-srdev/pulso-saga) — saga, outbox, idempotency, circuit breaker, bulkhead, chaos simulator |
+| Docker, Kubernetes & delivery | [pulso-platform](https://github.com/AlejandroAlvarez-srdev/pulso-platform) — Kustomize, Helm, Argo CD, canary, External Secrets |
+| Data, statistics & ML | [pulso-experiments](https://github.com/AlejandroAlvarez-srdev/pulso-experiments) — power, SRM, CUPED, Bayesian, peeking, ETA model |
 
 ## Products & client work
 
